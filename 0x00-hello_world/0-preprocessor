@@ -1,2 +1,4 @@
 #!/bin/bash
+main.c
 gcc -e $CFILE -o c
+
