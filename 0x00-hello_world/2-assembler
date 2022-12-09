@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE -e 2-assmbler
+gcc -S $CFILE -e 2-assmbler
