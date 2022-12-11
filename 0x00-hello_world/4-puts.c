@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - main prints a given set of characters
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
