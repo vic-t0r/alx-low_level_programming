@@ -3,7 +3,7 @@
 /**
  * main - main function Returns a combination of number
  *
- * Return always 0 if successful
+ * Return: Always 0 (success)
  */
 int main(void)
 {
