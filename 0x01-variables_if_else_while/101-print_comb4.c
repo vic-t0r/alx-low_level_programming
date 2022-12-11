@@ -18,10 +18,10 @@ int main(void)
 			{
 if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
 				{
-					putchar(hundred);
-					putchar(ten);
-					putchar(one);
-					if (!(one == '9' && ten == '8' && hundred == '7'))
+					putchar(hundreds);
+					putchar(tens);
+					putchar(ones);
+					if (!(ones == '9' && tens == '8' && hundreds == '7'))
 					{
 						putchar(',');
 						putchar(' ');
