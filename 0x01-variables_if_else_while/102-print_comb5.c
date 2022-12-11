@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - returns a combination of number
+ * main - Returns a combination of number
+ *
  * Return always 0 if successful
  */
 int main(void)
