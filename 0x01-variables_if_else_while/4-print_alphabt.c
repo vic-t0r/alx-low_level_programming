@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - return alphabet both e and q
+ * main - main return alphabet both e and q
  *
- * Return Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -20,4 +20,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-

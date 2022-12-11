@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * main - return alphabets both lower and upper cases
+ * main - main return alphabets both lower and upper cases
  *
- * Return Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int ch = 'a';
 	int CH = 'A';
 
-	while (ch <= 'z')
+	while (ch <= 'z');
 	{
 		putchar(ch);
 		ch++;
@@ -24,4 +24,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
