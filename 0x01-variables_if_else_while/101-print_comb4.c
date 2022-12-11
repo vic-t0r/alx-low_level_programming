@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	int one = '0';
-	int ten = '0';
-	int hundred = '0';
+	int ones = '0';
+	int tens = '0';
+	int hundreds = '0';
 
-	for (hundred = '0'; hundred <= '9'; hundred++)
+	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (ten = '0'; ten <= '9'; ten++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
-			for (one = '0'; one <= '9'; one++)
+			for (ones = '0'; ones <= '9'; ones++)
 			{
-			if (!((one == ten) || (ten == hundred) || (ten > one) || (hundred > ten)))
+if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
 				{
 					putchar(hundred);
 					putchar(ten);
